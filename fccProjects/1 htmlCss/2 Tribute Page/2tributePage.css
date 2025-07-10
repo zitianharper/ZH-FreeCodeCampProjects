@@ -1,0 +1,45 @@
+h1 {
+    background: black;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 0;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+    }
+    
+    h2 {
+      font-size: 20px;
+      text-align: center;
+      border: none;
+      margin-top: 0;
+      background: green;
+      color: white;
+    
+    }
+    
+    h3 {
+        font-size: 20px;
+        text-align: center;
+        border: none;
+        margin-top: 0;
+        background: red;
+        color: white;
+    }
+
+    img {
+    width: 60%;
+      max-width: 600px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+     
+    }
+    
+    
+    
+    

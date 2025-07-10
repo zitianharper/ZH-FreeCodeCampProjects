@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <html lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="3techDoc.css">
+
+</head>
+<body>
+
+<nav id="navbar">
+<header>Navigation</header>
+  <ul>
+  <li><a class="nav-link" href="#1)_span">1) Span</a></li>
+  <li><a class="nav-link" href="#2)_child_combinator">2) Child Combinator</a></li>
+  <li><a class="nav-link" href="#3)_calc()">3) Calc()</a></li>
+  <li><a class="nav-link" href="#4)_inheritance">4) Inheritance</a></li>
+  <li><a class="nav-link" href="#5)_media_query">5) Media Query</a></li>
+  </ul>
+
+</nav>
+
+
+<main id="main-doc">
+<section id="1)_span" class="main-section">
+<header>1) Span</header>
+
+<p class="main-text">Span is useful for when you want to style part of a sentence differently.</p>
+
+<p class="main-text">For example:</p>
+  <pre class="codes"><code>&lt;p&gt;This is a &lt;span style=&quot;color: red;&quot;&gt;highlighted&lt;/span&gt; word.&lt;/p&gt;</code></pre>
+
+</section>
+
+
+<section id="2)_child_combinator" class="main-section">
+<header>2) Child Combinator</header>
+<p class="main-text">The child combinator selector (>) in CSS is used to select elements that are direct children of a specified parent. It does not get confused with element brackets (<>) because CSS is strictly about styling elements and does not interfere with HTML syntax.</p>
+<p class="main-text">Example:</p>
+<pre><code>css
+CopyEdit
+.parent > .child {
+  color: red;
+}</code></pre>
+
+
+</section>
+
+
+<section id="3)_calc()" class="main-section">
+<header>3) Calc()</header>
+<p class="main-text">The calc() function in CSS allows you to perform mathematical calculations directly in styles.</p>
+<p class="main-text">Calc is useful for combining rem (scalable) and px (precise) for better alignment.</p>
+
+<pre><code> #years {
+  padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
+  }</code></pre>
+</section>
+
+
+<section id="4)_inheritance" class="main-section">
+<header>4) Inheritance</header>
+<p class="main-text">Some properties naturally inherit from the parent element. These include: <ul>
+  <li>color</li>
+  <li>font-family</li> 
+  <li>line-height</li></ul></p>
+
+<p class="main-text"> Other properties do not inherit by default. These include:
+  <ul>
+    <li>margin</li>
+    <li>padding</li>
+    <li>border</li>
+  </ul>
+</p>
+
+<p class="main-text">By default, inheritance only affects standard elements. To affect pseudo-elements, add the pseudo-elements before inherit. For example:</p>
+<pre><code>*, ::before, ::after {
+  box-sizing: inherit;
+}</code></pre>
+</section>
+
+
+<section id="5)_media_query" class="main-section">
+<header>5) Media Query</header>
+<p class="main-text">A CSS rule that changes styles based on screen size (or other conditions). It's mainly used to make websites responsive so they look good on different devices.</p>
+<p class="main-text">Example: If you want a background color to change when the screen is smaller than 600px, you can write:</p>
+<pre><code>css
+CopyEdit
+body {
+  background-color: blue;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+}</code></pre>
+</section>
+
+</body>
+
+
+</main>
+
+
+</html>
+

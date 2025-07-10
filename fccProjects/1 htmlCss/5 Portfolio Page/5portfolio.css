@@ -1,0 +1,34 @@
+@media (max-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  
+  :root {
+    --viewport-height: 50px;
+  }
+  
+  
+  
+  #welcome-section {
+    height: var(--viewport-height);
+    padding-top: var(--navbar-height);
+    box-sizing: border-box;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: red;
+    padding: 10px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  

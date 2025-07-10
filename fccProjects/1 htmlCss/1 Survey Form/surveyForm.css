@@ -1,0 +1,26 @@
+body {
+    background: rgb(0,0,100);
+    color: rgb(255,255,255);
+    width: 100%;
+    overflow-y: auto;
+  }
+  
+  form {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 5px;
+  }
+  
+  input, select {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  
+  
+  
+  

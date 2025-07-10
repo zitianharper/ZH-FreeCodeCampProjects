@@ -1,0 +1,46 @@
+
+@media (min-width: 769px) {
+    #navbar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100vh;
+      width: 250px;
+      background-color: #333;
+      padding: 20px;
+      overflow-y: auto;
+      a {
+        color: white;
+      }
+    }
+
+
+  #main-doc {
+      margin-left: 270px;
+      padding: 20px;
+    }
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background: rgb(0, 20, 155);
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    font-family: Sans-serif;
+    font-size: 25;
+  }
+  
+  .main-text {
+    font-size: 15
+  }
+  
+ 

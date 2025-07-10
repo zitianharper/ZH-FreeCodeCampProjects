@@ -1,0 +1,62 @@
+<html>
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="surveyForm.css">
+</head> 
+
+<body>
+<h1 id="title">Survey 2.0</h1>
+<p id="description">Second attemp at completing this survey unassisted. 8th Feb 2025</p>
+
+<form id="survey-form">This is the form element
+
+<div>
+
+<label for="name" id="name-label">Name</label>
+<input id="name" type="text" placeholder="Your Name" required>
+
+
+<label for="email" id="email-label">Email</label>
+<input id="email" type="email" placeholder="Email Address" required>
+
+
+<label for="number" id="number-label">Number</label>
+<input id="number" type="number" min="1" max="120" placeholder="Age" required>
+
+<label for="dropdown" id="dropdown-label">Size</label>
+<select id="dropdown" required>
+  <option>S</option>
+  <option>M</option>
+  <option>L</option>
+</select>
+
+<label id="radio-label">Choose:</label>
+
+ <label for="radio1" bio="radio1-label">Cake
+  <input id="radio1" type="radio" name="RADIO" value="cake" required>
+
+  <label for="radio2" bio="radio2-label">Death
+  <input id="radio2" type="radio" value="death" name="RADIO">
+
+
+
+<label id="checkbox-label">Are you: </label>
+<label for="checkbox1">Happy</label>
+<input id="checkbox1" type="checkbox" value="happy">
+
+<label for="checkbox2">Sad</label>
+<input id="checkbox2" type="checkbox" value="sad">
+
+<label for="bio" id="bio-label">Bio</label>
+<textarea id="bio" placeholder="Tell me about yourself"></textarea>
+
+<label for="button" id="button-label">Submit</label>
+<input type="submit" id="submit">
+
+</form>
+</body>
+</html>
+
+
+
